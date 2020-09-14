@@ -1,0 +1,10 @@
+C:\Users\denis\source\repos\SimpleArrayManager\SimpleArrayManager\bin\Debug\SimpleArrayManager.exe.config
+C:\Users\denis\source\repos\SimpleArrayManager\SimpleArrayManager\bin\Debug\SimpleArrayManager.exe
+C:\Users\denis\source\repos\SimpleArrayManager\SimpleArrayManager\bin\Debug\SimpleArrayManager.pdb
+C:\Users\denis\source\repos\SimpleArrayManager\SimpleArrayManager\obj\Debug\SimpleArrayManager.csprojAssemblyReference.cache
+C:\Users\denis\source\repos\SimpleArrayManager\SimpleArrayManager\obj\Debug\SimpleArrayManager.Form1.resources
+C:\Users\denis\source\repos\SimpleArrayManager\SimpleArrayManager\obj\Debug\SimpleArrayManager.Properties.Resources.resources
+C:\Users\denis\source\repos\SimpleArrayManager\SimpleArrayManager\obj\Debug\SimpleArrayManager.csproj.GenerateResource.cache
+C:\Users\denis\source\repos\SimpleArrayManager\SimpleArrayManager\obj\Debug\SimpleArrayManager.csproj.CoreCompileInputs.cache
+C:\Users\denis\source\repos\SimpleArrayManager\SimpleArrayManager\obj\Debug\SimpleArrayManager.exe
+C:\Users\denis\source\repos\SimpleArrayManager\SimpleArrayManager\obj\Debug\SimpleArrayManager.pdb
