@@ -10,11 +10,12 @@ using System.Windows.Forms;
 
 namespace SimpleArrayManager
 {
-    
-    
+
+
     public partial class Form1 : Form
     {
-
+        int[] array;
+        int range;
         public Form1()
         {
             InitializeComponent();
@@ -29,29 +30,31 @@ namespace SimpleArrayManager
         private void Btn_generate_Click(object sender, EventArgs e)
         {
             Random rand = new Random();
-            string arrayString = "";
-            bool succes = Int32.TryParse(TextBox_arrayRange.Text, out int range);
+            string output = "";
+            bool succes = Int32.TryParse(TextBox_arrayRange.Text, out range);
+            array = new int[range];
 
             if (succes)
             {
-                int[] tmpArray = new int[range];
+
                 for (int i = 0; i < range; i++)
                 {
-                    tmpArray[i] = rand.Next(10);
+                    array[i] = rand.Next(10);
 
-                    arrayString += $"<{tmpArray[i]}> ";
+                    output += $"<{array[i]}> ";
                 }
             }
             else
             {
-                arrayString = $"[{TextBox_arrayRange.Text}] - не является числом";
+                output = $"[{TextBox_arrayRange.Text}] - не является числом";
             }
-            TextBox_ArrayOutput.Text = arrayString;
+            TextBox_ArrayOutput.Text = output;
         }
 
         private void Btn_clear_Click(object sender, EventArgs e)
         {
             TextBox_ArrayOutput.Text = "";
+            array = null;
         }
     }
 }
